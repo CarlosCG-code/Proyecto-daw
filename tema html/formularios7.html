@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="mailto:correo@correo.es" method="get" enctype="text/plain">
+        <h1>Formulario de Alta</h1>
+        <h3>Nombre y Apellidos *</h3>
+        <input type="text" name="nombre" id=""><label for="nombre"> Nombre</label>
+        <input type="text" name="apellido" id=""><label for="apellido"> Primer Apellido</label>
+        <input type="text" name="segundoApellido" id=""><label for="segundoApellido"> Segundo Apellido</label><br>
+        <h3>Direción</h3>
+        <input type="text" name="cnpp" id=""><label for="cnpp"> Calle, número, piso, puerta</label>
+        <input type="text" name="codPostal" id=""><label for="codPostal"> Código Postal</label>
+        <input type="text" name="municipio" id=""><label for="municipio"> Municipio</label>
+        <select name="provincia" id="">
+            <option value="1">Provincia 1</option>
+            <option value="2">Provincia 2</option>
+            <option value="3">Provincia 3</option>
+        </select>
+        Provincia
+        <select name="pais" id="">
+            <option value="1">País 1</option>
+            <option value="2">País 2</option>
+            <option value="3">País 3</option>
+        </select>
+        <h3>Email *</h3>
+        <input type="email" name="email" id="">
+        <h3>Teléfono *</h3>
+        <input type="number" name="telefonof" id=""><label for="telefonof"> Fijo</label>
+        <input type="number" name="telefonom" id=""><label for="telefonom"> Móvil</label><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

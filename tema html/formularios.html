@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios entiendeee</title>
+</head>
+<body>
+    <!--Formularios como dice puuuueelto ricooo saeee-->
+    <form action="mailto:ccidg01@educarex.es" method="get" enctype="text/plain">
+        <fieldset> <legend align="center">Datos Personales</legend>
+        <label for="Nom">Nombre: </label>
+        <input type="text" name="Nom" size="20" maxlength="25" required>
+        <p>DNI: <input type="text" size="9" maxlength="9" required autofocus></p>
+        <p>Código Postal: <input type="text" size="6" maxlength="6"></p>
+        </fieldset>
+        <p>Fecha de Nacimiento: <input type="date"></p>
+        <p>Saldo: <input type="number"></p>
+        <p>Hora/Salida: <input type="time"></p>
+        <textarea name="" id="" cols="15" rows="5" placeholder="Opinion"></textarea>
+        <p>Color: <input type="color"></p>
+        <p>Grado de satisfacción: <input type="range"></p>
+        <p>Contraseña: <input type="password"></p>
+        <p><input type="checkbox" name="username-enabled"> Nombre real de usuario</p>
+        <p><input type="checkbox" name="nickname-enabled"> Nick de usuario</p>
+        <p><input type="radio" name="category" value="user">Particular</p>
+        <p><input type="radio" name="category" value="business">Empresa</p>
+        <select>
+            <option value="1" selected>Seleccione una opcion</option>
+            <option value="2">primero</option>
+            <option value="3">segundo</option>
+            <option value="4">tercero</option>
+        </select><br><br>
+        <select>
+            <optgroup label="Categoria A">
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+            </optgroup>
+            <optgroup label="Categoria B">
+                <option value="3">Opcion 3</option>
+                <option value="4">Opcion 4</option>
+            </optgroup>
+        </select><br><br>
+        <input type="text" list="fruta">
+        <datalist id="fruta">
+            <option value="Manzana">manzana</option>
+            <option value="Peras">peras</option>
+            <option value="Plátanos">platanos</option>
+        </datalist><br><br>
+        <fieldset>
+            <legend>Agrupación de varios controles:</legend>
+            Campo de texto: <br>
+            <input type="text"><br>
+            Lista de selección: <br>
+            <select name="" id="">
+                <option value="1">Opción 1</option>
+                <option value="2">Opción 2</option>
+            </select><br>
+            Área de texto: <br>
+            <textarea name="" id="" rows="3"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Agrupación de botones:</legend>
+            <input type="reset" value="Resetear">
+            <input type="submit" value="Enviar">
+        </fieldset><br>
+        <input type="submit">
+    </form>
+</body>
+</html> 

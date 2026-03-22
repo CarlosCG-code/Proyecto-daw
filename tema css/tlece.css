@@ -1,0 +1,15 @@
+/*Esta regla centra el texto de los elementos <p> que sean hijos de un elemento
+<article>*/
+article > p {
+text-align:center;
+}
+/*Esta regla centra el texto de los elementos <p> que sean hermanos de un elemento
+<h2>*/
+h2 ~ p {
+text-align:center;
+}
+/*Esta regla centra el texto de los elementos <p> que sean descendientes de un
+elemento <div>*/
+div p {
+text-align:center;
+}

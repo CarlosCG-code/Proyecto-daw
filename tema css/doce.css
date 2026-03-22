@@ -1,0 +1,26 @@
+*{
+    margin: 3px;
+}
+h1{
+    color: rgb(50, 50, 30);
+    font-style: italic;
+}
+#introduccion{
+    border-style: dotted;
+    padding: 1em;
+}
+.positivo{
+    color: green;
+    font-weight: bolder;
+}
+.negativo{
+    color: red;
+    font-weight: bolder;
+}
+input[type]{
+    background-color: rgb(196,148,196);
+}
+input[type="text"]{
+    color: rgb(0, 98, 255);
+    font-weight: bolder;
+}
